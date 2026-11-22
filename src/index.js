@@ -15,8 +15,8 @@ function calcularPrecioFinal(precioBase, porcentaje) {
 
 console.log(calcularPrecioFinal(100, 21));
 
-function calcularTotalCompra(precio, cantidad, porcentaje) {
-    const subtotal = precio * cantidad;
+function calcularTotalCompra(precio, numeroProductos, porcentaje) {
+    const subtotal = precio * numeroProductos;
     return calcularPrecioFinal(subtotal, porcentaje);
 }
 
