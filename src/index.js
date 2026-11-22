@@ -3,11 +3,11 @@ function calcularImpuesto(precioBase, precioFinal) {
     return (impuesto / precioBase) * 100;
 }
 
-console.log(calcularImpuesto(100, 21));
+console.log(calcularImpuesto(100, 121));
 
-function calcularPrecioFinal(precio, porcentaje) {
-    const impuesto = calcularImpuesto(precio, porcentaje);
-    return precio + impuesto;
+function calcularPrecioFinal(precioBase, porcentaje) {
+    const importeImpuesto = precioBase * porcentaje / 100;
+    return precioBase + importeImpuesto;
 }
 
 console.log(calcularPrecioFinal(100, 21));
