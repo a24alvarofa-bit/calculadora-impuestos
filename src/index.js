@@ -6,6 +6,9 @@ function calcularImpuesto(precioBase, precioFinal) {
 console.log(calcularImpuesto(100, 121));
 
 function calcularPrecioFinal(precioBase, porcentaje) {
+    if (precioBase < 0 || porcentaje < 0) {
+        throw new Error("El precio y el porcentaje no pueden ser negativos");
+    }
     const importeImpuesto = precioBase * porcentaje / 100;
     return precioBase + importeImpuesto;
 }
