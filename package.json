@@ -1,0 +1,14 @@
+{
+  "name": "calculadora-impuestos",
+  "version": "1.0.0",
+  "description": "## Descripción Proyecto desarrollado en JavaScript que permite calcular impuestos, precios finales y el coste total de varias unidades.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^10.15.0"
+  }
+}
