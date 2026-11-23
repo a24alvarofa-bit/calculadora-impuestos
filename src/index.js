@@ -47,3 +47,5 @@ function calcularTotalCompra(precio, unidades, porcentaje) {
 }
 
 console.log(calcularTotalCompra(10, 3, 21));
+
+const variableSinUsar = 10;
