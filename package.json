@@ -4,8 +4,9 @@
   "description": "## Descripción Proyecto desarrollado en JavaScript que permite calcular impuestos, precios finales y el coste total de varias unidades.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "jsdoc -c jsdoc.json"
+    "test": "node src/index.js",
+    "docs": "jsdoc -c jsdoc.json",
+    "lint": "eslint src/index.js"
   },
   "author": "",
   "license": "ISC",
